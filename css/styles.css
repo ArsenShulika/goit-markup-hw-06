@@ -31,6 +31,7 @@ img {
     display: block;
 }
 
+
 .list {
     list-style-type: none;
 }
@@ -180,18 +181,28 @@ img {
     /* ============== MOBILE HEADER STYLES ============== */
     /* ============== MOBILE HERO STYLES ============== */
 
-    .hero {
+    .hero-banner {
         max-width: 1440px;
         background-color: #2e2f42;
         background-image: linear-gradient(rgba(46, 47, 66, 0.7),
                 rgba(46, 47, 66, 0.7)),
-            url(../images/peopleoffice.jpg);
+            url(../images/mobile_Dark-bg.jpg);
         background-repeat: no-repeat;
         background-position: center;
         padding: 72px 0;
         margin: 0 auto;
         background-size: cover;
     }
+
+    @media screen and (min-resolution: 192dpi) and (min-width: 280px),
+    screen and (min-resolution: 2dppx) and (min-width: 280px),
+    screen and (min-device-pixel-ratio: 3) and (min-width: 280px) {
+        .hero-banner {
+            background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+                    rgba(46, 47, 66, 0.7)), url('../images/mobile_Dark-bg@2x.jpg');
+        }
+    }
+
 
     .hero-title {
         color: #FFF;
@@ -1056,17 +1067,26 @@ img {
     /* ============== TABLET HEADER STYLES ============== */
     /* ============== TABLET HERO STYLES ============== */
 
-    .hero {
+    .hero-banner {
         max-width: 1440px;
         background-color: #2e2f42;
         background-image: linear-gradient(rgba(46, 47, 66, 0.7),
                 rgba(46, 47, 66, 0.7)),
-            url(../images/peopleoffice.jpg);
+            url(../images/tablet_Dark-bg.jpg);
         background-repeat: no-repeat;
         background-position: center;
         padding: 112px 0;
         margin: 0 auto;
         background-size: cover;
+    }
+
+    @media screen and (min-resolution: 192dpi) and (min-width: 768px),
+    screen and (min-resolution: 2dppx) and (min-width: 768px),
+    screen and (min-device-pixel-ratio: 3) and (min-width: 768px) {
+        .hero-banner {
+            background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+                    rgba(46, 47, 66, 0.7)), url('../images/tablet_Dark-bg@2x.jpg');
+        }
     }
 
     .hero-title {
@@ -1765,7 +1785,7 @@ img {
     /* ============== DESKTOP HEADER STYLES ============== */
     /* ============== DESKTOP HERO STYLES ============== */
 
-    .hero {
+    .hero-banner {
         max-width: 1440px;
         background-color: #2e2f42;
         background-image: linear-gradient(rgba(46, 47, 66, 0.7),
@@ -1777,6 +1797,15 @@ img {
         margin: 0 auto;
         background-size: cover;
         height: 600px;
+    }
+
+    @media screen and (min-resolution: 192dpi) and (min-width: 1158px),
+    screen and (min-resolution: 2dppx) and (min-width: 1158px),
+    screen and (min-device-pixel-ratio: 3) and (min-width: 1158px) {
+        .hero-banner {
+            background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+                    rgba(46, 47, 66, 0.7)), url('../images/peopleoffice@2x.jpg');
+        }
     }
 
     .hero-title {
