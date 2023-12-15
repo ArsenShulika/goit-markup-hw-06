@@ -247,10 +247,8 @@ img {
 
     .section-title {
         color: #2e2f42;
-        font-family: 'Roboto';
         text-align: center;
         font-size: 36px;
-        font-style: normal;
         font-weight: 700;
         line-height: 1.11;
         letter-spacing: 0.02em;
@@ -304,9 +302,7 @@ img {
 
     .title-item {
         color: #2e2f42;
-        font-family: 'Roboto', sans-serif;
         font-size: 20px;
-        font-style: normal;
         font-weight: 500;
         line-height: 1.2;
         letter-spacing: 0.02em;
@@ -316,9 +312,7 @@ img {
 
     .text-item {
         color: #434455;
-        font-family: 'Roboto';
         font-size: 16px;
-        font-style: normal;
         font-weight: 400;
         line-height: 1.5;
         letter-spacing: 0.02em;
@@ -413,9 +407,7 @@ img {
 
     .title-portfolio-item {
         color: #2e2f42;
-        font-family: 'Roboto', sans-serif;
         font-size: 20px;
-        font-style: normal;
         font-weight: 500;
         line-height: 1.2;
         letter-spacing: 0.02em;
@@ -425,9 +417,7 @@ img {
 
     .text-portfolio-item {
         color: #434455;
-        font-family: 'Roboto';
         font-size: 16px;
-        font-style: normal;
         font-weight: 400;
         line-height: 1.5;
         letter-spacing: 0.02em;
@@ -457,9 +447,7 @@ img {
 
     .text-footer {
         color: #f4f4fd;
-        font-family: 'Roboto';
         font-size: 16px;
-        font-style: normal;
         font-weight: 400;
         line-height: 1.5;
         letter-spacing: 0.02em;
@@ -473,7 +461,6 @@ img {
     .title-social-link {
         display: flex;
         color: #fff;
-        font-family: Roboto;
         font-size: 16px;
         font-weight: 500;
         line-height: 1.5;
@@ -534,7 +521,6 @@ img {
         flex-direction: row;
         color: #ffffff;
         gap: 24px;
-        font-family: Roboto;
         font-size: 16px;
         font-weight: 500;
         line-height: 1.5;
@@ -563,7 +549,7 @@ img {
         color: #ffffff;
         padding: 8px 16px;
         letter-spacing: 0.04em;
-        width: 264px;
+        width: 288px;
         height: 40px;
         background-color: transparent;
         border-radius: 4px;
@@ -581,7 +567,6 @@ img {
         display: flex;
         font-size: 16px;
         font-weight: 500;
-        font-family: Roboto, sans-serif;
         padding: 8px 24px;
         border-radius: 4px;
         line-height: 1.5;
@@ -977,9 +962,7 @@ img {
     .menu-link-first {
         display: block;
         color: #2e2f42;
-        font-family: 'Roboto' sans-serif;
         font-size: 16px;
-        font-style: normal;
         font-weight: 500;
         line-height: 1.5;
         letter-spacing: 0.02em;
@@ -1007,9 +990,7 @@ img {
     .menu-link {
         display: block;
         color: #2e2f42;
-        font-family: 'Roboto' sans-serif;
         font-size: 16px;
-        font-style: normal;
         font-weight: 500;
         line-height: 1.5;
         letter-spacing: 0.02em;
@@ -1117,7 +1098,6 @@ img {
 
     .section-title {
         color: #2e2f42;
-        font-family: 'Roboto';
         text-align: center;
         font-size: 36px;
         font-style: normal;
@@ -1177,9 +1157,7 @@ img {
 
     .title-item {
         color: #2e2f42;
-        font-family: 'Roboto', sans-serif;
         font-size: 20px;
-        font-style: normal;
         font-weight: 500;
         line-height: 1.2;
         letter-spacing: 0.02em;
@@ -1189,9 +1167,7 @@ img {
 
     .text-item {
         color: #434455;
-        font-family: 'Roboto';
         font-size: 16px;
-        font-style: normal;
         font-weight: 400;
         line-height: 1.5;
         letter-spacing: 0.02em;
@@ -1290,9 +1266,7 @@ img {
 
     .title-portfolio-item {
         color: #2e2f42;
-        font-family: 'Roboto', sans-serif;
         font-size: 20px;
-        font-style: normal;
         font-weight: 500;
         line-height: 1.2;
         letter-spacing: 0.02em;
@@ -1302,9 +1276,7 @@ img {
 
     .text-portfolio-item {
         color: #434455;
-        font-family: 'Roboto';
         font-size: 16px;
-        font-style: normal;
         font-weight: 400;
         line-height: 1.5;
         letter-spacing: 0.02em;
@@ -1336,9 +1308,7 @@ img {
 
     .text-footer {
         color: #f4f4fd;
-        font-family: 'Roboto';
         font-size: 16px;
-        font-style: normal;
         font-weight: 400;
         line-height: 1.5;
         letter-spacing: 0.02em;
@@ -1401,7 +1371,6 @@ img {
     .footer-text {
         color: #ffffff;
         gap: 24px;
-        font-family: Roboto;
         font-size: 16px;
         font-weight: 500;
         line-height: 1.5;
@@ -1449,7 +1418,6 @@ img {
         display: flex;
         font-size: 16px;
         font-weight: 500;
-        font-family: Roboto, sans-serif;
         padding: 8px 24px;
         border-radius: 4px;
         line-height: 1.5;
@@ -1615,7 +1583,7 @@ img {
     .svg-input-icon {
         position: absolute;
         left: 16px;
-        bottom: 6px;
+        top: 50%;
         fill: rgba(46, 47, 66, 1);
         transform: translateY(-50%);
         transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
